@@ -1,3 +1,12 @@
+iptables (1.8.7-1ubuntu5.1) jammy; urgency=medium
+
+  * d/patches: 0001-libiptc-Fix-for-segfault-when-renaming-a-chain.patch
+    Apply upstream fix:
+    - libiptc: Fix for segfault when renaming a chain (LP: #1992454)
+    - include new test for this issue in the DEP8 run
+
+ -- Louis Bouchard <louis@ubuntu.com>  Wed, 26 Apr 2023 11:40:37 -0300
+
 iptables (1.8.7-1ubuntu5) jammy; urgency=high
 
   * No change rebuild for ppc64el baseline bump.
