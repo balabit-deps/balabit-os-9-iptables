@@ -1,3 +1,10 @@
+iptables (1.8.7-1ubuntu5.2) jammy; urgency=medium
+
+  * Apply upstream patch to fix a double free of
+    unrecognized base-chains. (LP: #2049318)
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Tue, 16 Jan 2024 21:14:30 +0000
+
 iptables (1.8.7-1ubuntu5.1) jammy; urgency=medium
 
   * d/patches: 0001-libiptc-Fix-for-segfault-when-renaming-a-chain.patch
